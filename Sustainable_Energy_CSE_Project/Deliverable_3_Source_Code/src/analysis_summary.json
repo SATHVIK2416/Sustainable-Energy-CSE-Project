@@ -1,0 +1,204 @@
+{
+    "metadata": {
+        "total_raw_rows": 4558,
+        "total_cleaned_rows": 4444,
+        "duplicates_removed": 22,
+        "nans_imputed_power": 54,
+        "nans_imputed_temp": 54,
+        "os_spike_outliers_filtered": 92,
+        "collection_duration_days": 21,
+        "sampling_sessions_total": 63,
+        "electricity_tariff_inr_per_kwh": 8.5
+    },
+    "algorithm_overall_summary": {
+        "Bubble Sort": {
+            "mean_execution_time_ms": 12341.13,
+            "mean_pkg_power_w": 20.92,
+            "mean_dynamic_power_w": 15.32,
+            "mean_total_energy_j": 258.3054,
+            "mean_energy_per_op_uj": 0.3686,
+            "mean_energy_per_100k_j": 679.0417,
+            "mean_cost_inr": 0.00060989,
+            "mean_cost_paise": 0.060989,
+            "mean_cost_per_100k_inr": 0.00160329,
+            "mean_cost_per_100k_paise": 0.160329
+        },
+        "Quick Sort": {
+            "mean_execution_time_ms": 141.99,
+            "mean_pkg_power_w": 17.63,
+            "mean_dynamic_power_w": 12.04,
+            "mean_total_energy_j": 2.5056,
+            "mean_energy_per_op_uj": 0.7057,
+            "mean_energy_per_100k_j": 1.8005,
+            "mean_cost_inr": 5.92e-06,
+            "mean_cost_paise": 0.000592,
+            "mean_cost_per_100k_inr": 4.25e-06,
+            "mean_cost_per_100k_paise": 0.000425
+        },
+        "Merge Sort": {
+            "mean_execution_time_ms": 168.41,
+            "mean_pkg_power_w": 23.41,
+            "mean_dynamic_power_w": 17.8,
+            "mean_total_energy_j": 3.942,
+            "mean_energy_per_op_uj": 0.9362,
+            "mean_energy_per_100k_j": 2.8283,
+            "mean_cost_inr": 9.31e-06,
+            "mean_cost_paise": 0.000931,
+            "mean_cost_per_100k_inr": 6.68e-06,
+            "mean_cost_per_100k_paise": 0.000668
+        },
+        "Heap Sort": {
+            "mean_execution_time_ms": 259.87,
+            "mean_pkg_power_w": 21.79,
+            "mean_dynamic_power_w": 16.18,
+            "mean_total_energy_j": 5.6464,
+            "mean_energy_per_op_uj": 0.8708,
+            "mean_energy_per_100k_j": 4.0642,
+            "mean_cost_inr": 1.333e-05,
+            "mean_cost_paise": 0.001333,
+            "mean_cost_per_100k_inr": 9.6e-06,
+            "mean_cost_per_100k_paise": 0.00096
+        }
+    },
+    "distribution_breakdown": {
+        "Bubble Sort": {
+            "Random": {
+                "mean_energy_j": 296.8636,
+                "mean_time_ms": 14204.58,
+                "mean_uj_per_op": 0.3685
+            },
+            "Nearly_Sorted": {
+                "mean_energy_j": 79.9372,
+                "mean_time_ms": 3821.82,
+                "mean_uj_per_op": 0.3687
+            },
+            "Reverse_Sorted": {
+                "mean_energy_j": 397.3229,
+                "mean_time_ms": 18958.96,
+                "mean_uj_per_op": 0.3685
+            }
+        },
+        "Quick Sort": {
+            "Random": {
+                "mean_energy_j": 2.6665,
+                "mean_time_ms": 151.16,
+                "mean_uj_per_op": 0.7044
+            },
+            "Nearly_Sorted": {
+                "mean_energy_j": 2.0145,
+                "mean_time_ms": 114.5,
+                "mean_uj_per_op": 0.7059
+            },
+            "Reverse_Sorted": {
+                "mean_energy_j": 2.8377,
+                "mean_time_ms": 160.42,
+                "mean_uj_per_op": 0.7069
+            }
+        },
+        "Merge Sort": {
+            "Random": {
+                "mean_energy_j": 3.9111,
+                "mean_time_ms": 167.19,
+                "mean_uj_per_op": 0.9353
+            },
+            "Nearly_Sorted": {
+                "mean_energy_j": 3.9547,
+                "mean_time_ms": 169.08,
+                "mean_uj_per_op": 0.9368
+            },
+            "Reverse_Sorted": {
+                "mean_energy_j": 3.9603,
+                "mean_time_ms": 168.97,
+                "mean_uj_per_op": 0.9366
+            }
+        },
+        "Heap Sort": {
+            "Random": {
+                "mean_energy_j": 5.6551,
+                "mean_time_ms": 260.27,
+                "mean_uj_per_op": 0.8737
+            },
+            "Nearly_Sorted": {
+                "mean_energy_j": 5.6411,
+                "mean_time_ms": 259.25,
+                "mean_uj_per_op": 0.8699
+            },
+            "Reverse_Sorted": {
+                "mean_energy_j": 5.6432,
+                "mean_time_ms": 260.09,
+                "mean_uj_per_op": 0.8689
+            }
+        }
+    },
+    "n_50k_comparative_benchmark": {
+        "bubble_sort_energy_j": 600.6511,
+        "quick_sort_energy_j": 0.9056,
+        "merge_sort_energy_j": 1.4168,
+        "heap_sort_energy_j": 2.0423,
+        "bubble_sort_cost_inr": 0.001418,
+        "bubble_sort_cost_paise": 0.1418,
+        "quick_sort_cost_inr": 2.14e-06,
+        "quick_sort_cost_paise": 0.000214,
+        "merge_sort_cost_inr": 3.35e-06,
+        "merge_sort_cost_paise": 0.000335,
+        "heap_sort_cost_inr": 4.82e-06,
+        "heap_sort_cost_paise": 0.000482,
+        "quick_vs_bubble_reduction_pct": 99.85,
+        "quick_vs_bubble_factor": 663.2,
+        "savings_per_run_inr": 0.001416,
+        "savings_per_run_paise": 0.1416
+    },
+    "regression_complexity_models": {
+        "Bubble Sort": {
+            "equation": "E(N) = 2.4017e-07 * N^2",
+            "coefficient": 2.401712883192316e-07,
+            "r2_score": 0.6408,
+            "rmse_joules": 186.0704,
+            "sample_count": 1115
+        },
+        "Quick Sort": {
+            "equation": "E(N) = 1.1592e-06 * (N * log2(N))",
+            "coefficient": 1.1591534023534122e-06,
+            "r2_score": 0.9708,
+            "rmse_joules": 0.6658,
+            "sample_count": 1108
+        },
+        "Merge Sort": {
+            "equation": "E(N) = 1.8249e-06 * (N * log2(N))",
+            "coefficient": 1.8248661756668634e-06,
+            "r2_score": 0.9963,
+            "rmse_joules": 0.3688,
+            "sample_count": 1114
+        },
+        "Heap Sort": {
+            "equation": "E(N) = 2.6084e-06 * (N * log2(N))",
+            "coefficient": 2.6083720079367232e-06,
+            "r2_score": 0.9966,
+            "rmse_joules": 0.5042,
+            "sample_count": 1107
+        }
+    },
+    "longitudinal_21day_thermal_trends": {
+        "day1_mean_temp_c": 39.24,
+        "day21_mean_temp_c": 43.96,
+        "thermal_drift_per_day_c": 0.2373,
+        "day1_mean_freq_mhz": 3853.3,
+        "day21_mean_freq_mhz": 3702.0,
+        "freq_drift_per_day_mhz": -7.472
+    },
+    "departmental_rupee_financial_impact": {
+        "electricity_tariff_inr_per_kwh": 8.5,
+        "cost_per_joule_inr": 2.3611e-06,
+        "cost_per_joule_paise": 0.00023611,
+        "direct_compute_savings_per_day_inr": 8.5,
+        "cooling_hvac_multiplier": 1.3333,
+        "total_lab_compute_savings_per_day_inr": 11.33,
+        "idle_suppression_savings_per_day_inr": 127.5,
+        "total_departmental_savings_per_day_inr": 138.83,
+        "monthly_departmental_savings_inr": 3054.22,
+        "annual_departmental_savings_inr": 30543.05,
+        "five_year_btech_cohort_savings_inr": 152715.25,
+        "university_wide_annual_savings_2500_pcs_inr": 152715.25,
+        "university_wide_5year_savings_inr": 763576.25
+    }
+}
